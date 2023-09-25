@@ -9,6 +9,7 @@ public class BallControl : MonoBehaviour
 
 	void GoBall()
 	{
+		Debug.Log("go ball");
 		float rand = Random.Range(0, 2);
 		if (rand < 1)
 		{

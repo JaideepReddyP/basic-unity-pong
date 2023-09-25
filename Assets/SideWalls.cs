@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class SideWalls : MonoBehaviour
 {
-
 	void OnTriggerEnter2D(Collider2D hitInfo)
 	{
+		Debug.Log("side wall collision");
 		if (hitInfo.name == "Ball")
 		{
 			string wallName = transform.name;
